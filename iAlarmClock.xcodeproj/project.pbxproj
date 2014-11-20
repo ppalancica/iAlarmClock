@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040A62F41559A598009C64F9 /* SetAlarmSnoozeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A62F21559A598009C64F9 /* SetAlarmSnoozeViewController.m */; };
+		040A62F51559A598009C64F9 /* SetAlarmSnoozeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040A62F31559A598009C64F9 /* SetAlarmSnoozeViewController.xib */; };
+		040B5A681555BBEA0006E5C0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 040B5A661555BBEA0006E5C0 /* Icon.png */; };
+		040B5A691555BBEA0006E5C0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040B5A671555BBEA0006E5C0 /* Icon@2x.png */; };
+		04142BD0154FDA6900EA52DA /* SetAlarmMelodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04142BCE154FDA6900EA52DA /* SetAlarmMelodyViewController.m */; };
+		04142BD1154FDA6900EA52DA /* SetAlarmMelodyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04142BCF154FDA6900EA52DA /* SetAlarmMelodyViewController.xib */; };
+		045C6BE2156117DA00139F97 /* setting_buttons in Resources */ = {isa = PBXBuildFile; fileRef = 045C6BE1156117DA00139F97 /* setting_buttons */; };
+		045E6B77152A530200B2B014 /* ThemeColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E6B75152A530100B2B014 /* ThemeColorViewController.m */; };
+		045E6B78152A530200B2B014 /* ThemeColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045E6B76152A530100B2B014 /* ThemeColorViewController.xib */; };
+		0476940F152E3E81007D5BAC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769406152E3E80007D5BAC /* 5.png */; };
+		04769410152E3E81007D5BAC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769407152E3E80007D5BAC /* 1.png */; };
+		04769411152E3E81007D5BAC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769408152E3E80007D5BAC /* 2.png */; };
+		04769412152E3E81007D5BAC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769409152E3E80007D5BAC /* 3.png */; };
+		04769413152E3E81007D5BAC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476940A152E3E81007D5BAC /* 4.png */; };
+		04769414152E3E81007D5BAC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476940B152E3E81007D5BAC /* 6.png */; };
+		04769415152E3E81007D5BAC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476940C152E3E81007D5BAC /* 7.png */; };
+		04769416152E3E81007D5BAC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476940D152E3E81007D5BAC /* 8.png */; };
+		04769417152E3E81007D5BAC /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476940E152E3E81007D5BAC /* 9.png */; };
+		0478739115250CBD003DD095 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478738F15250CBD003DD095 /* SettingsViewController.m */; };
+		0478739215250CBD003DD095 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478739015250CBD003DD095 /* SettingsViewController.xib */; };
+		04793A40155005CC00FA85AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04793A3F155005CC00FA85AA /* AVFoundation.framework */; };
+		04793A451550158B00FA85AA /* SetAlarmRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04793A431550158B00FA85AA /* SetAlarmRepeatViewController.m */; };
+		04793A461550158B00FA85AA /* SetAlarmRepeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04793A441550158B00FA85AA /* SetAlarmRepeatViewController.xib */; };
+		04798AD6152CC5DD002310C5 /* InterruptedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04798AD5152CC5DD002310C5 /* InterruptedLineView.m */; };
+		04798AD8152CCE5B002310C5 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 04798AD7152CCE5B002310C5 /* bell.png */; };
+		047A16B41521083A00F418A8 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047A16B01521083A00F418A8 /* DS-DIGI.TTF */; };
+		047A16B51521083A00F418A8 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047A16B11521083A00F418A8 /* DS-DIGIB.TTF */; };
+		047A16B61521083A00F418A8 /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047A16B21521083A00F418A8 /* DS-DIGII.TTF */; };
+		047A16B71521083A00F418A8 /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 047A16B31521083A00F418A8 /* DS-DIGIT.TTF */; };
+		047A16C31521271C00F418A8 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A16C21521271C00F418A8 /* Utilities.m */; };
+		04B69CA8154E8B5C0081DB79 /* SetAlarmNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B69CA6154E8B5C0081DB79 /* SetAlarmNameViewController.m */; };
+		04B69CA9154E8B5C0081DB79 /* SetAlarmNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B69CA7154E8B5C0081DB79 /* SetAlarmNameViewController.xib */; };
+		04D2DCE115626C4A003009FA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2DCE015626C4A003009FA /* background.png */; };
+		04D94973154E5FE6008BC8D4 /* SetAlarmTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D94971154E5FE6008BC8D4 /* SetAlarmTimeViewController.m */; };
+		04D94974154E5FE6008BC8D4 /* SetAlarmTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D94972154E5FE6008BC8D4 /* SetAlarmTimeViewController.xib */; };
+		04E9C3FB155C52E500B34FB2 /* Ascending.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3E7155C52E500B34FB2 /* Ascending.mp3 */; };
+		04E9C3FC155C52E500B34FB2 /* Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3E8155C52E500B34FB2 /* Bells.mp3 */; };
+		04E9C3FD155C52E500B34FB2 /* Best DJ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3E9155C52E500B34FB2 /* Best DJ.mp3 */; };
+		04E9C3FE155C52E500B34FB2 /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3EA155C52E500B34FB2 /* Birds.mp3 */; };
+		04E9C3FF155C52E500B34FB2 /* Cool Reggae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3EB155C52E500B34FB2 /* Cool Reggae.mp3 */; };
+		04E9C400155C52E500B34FB2 /* Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3EC155C52E500B34FB2 /* Dance.mp3 */; };
+		04E9C401155C52E500B34FB2 /* Disco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3ED155C52E500B34FB2 /* Disco.mp3 */; };
+		04E9C402155C52E500B34FB2 /* Electronica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3EE155C52E500B34FB2 /* Electronica.mp3 */; };
+		04E9C403155C52E500B34FB2 /* Fast Digital.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3EF155C52E500B34FB2 /* Fast Digital.mp3 */; };
+		04E9C404155C52E500B34FB2 /* Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F0155C52E500B34FB2 /* Guitar.mp3 */; };
+		04E9C405155C52E500B34FB2 /* House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F1155C52E500B34FB2 /* House.mp3 */; };
+		04E9C406155C52E500B34FB2 /* Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F2155C52E500B34FB2 /* Love.mp3 */; };
+		04E9C407155C52E500B34FB2 /* Manele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F3155C52E500B34FB2 /* Manele.mp3 */; };
+		04E9C408155C52E500B34FB2 /* Nostalgic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F4155C52E500B34FB2 /* Nostalgic.mp3 */; };
+		04E9C409155C52E500B34FB2 /* Oriental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F5155C52E500B34FB2 /* Oriental.mp3 */; };
+		04E9C40A155C52E500B34FB2 /* Romantic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F6155C52E500B34FB2 /* Romantic.mp3 */; };
+		04E9C40B155C52E500B34FB2 /* Royal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F7155C52E500B34FB2 /* Royal.mp3 */; };
+		04E9C40C155C52E500B34FB2 /* Spanish Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F8155C52E500B34FB2 /* Spanish Guitar.mp3 */; };
+		04E9C40D155C52E500B34FB2 /* Sufiana Flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3F9155C52E500B34FB2 /* Sufiana Flute.mp3 */; };
+		04E9C40E155C52E500B34FB2 /* Twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C3FA155C52E500B34FB2 /* Twinkle.mp3 */; };
+		04FAEC99154D7E8E0096496E /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEC98154D7E8E0096496E /* Common.m */; };
+		04FAEC9E154D85420096496E /* CustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEC9D154D85420096496E /* CustomHeader.m */; };
+		04FAECA2154D8E430096496E /* AddAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAECA0154D8E430096496E /* AddAlarmViewController.m */; };
+		04FAECA3154D8E430096496E /* AddAlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FAECA1154D8E430096496E /* AddAlarmViewController.xib */; };
+		04FF34BC154D76B50048A0A8 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF34BB154D76B50048A0A8 /* CustomCellBackground.m */; };
+		1D671200150B94E400AA0621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6711FF150B94E400AA0621 /* UIKit.framework */; };
+		1D671202150B94E400AA0621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D671201150B94E400AA0621 /* Foundation.framework */; };
+		1D671204150B94E400AA0621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D671203150B94E400AA0621 /* CoreGraphics.framework */; };
+		1D67120A150B94E500AA0621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D671208150B94E500AA0621 /* InfoPlist.strings */; };
+		1D67120D150B94E500AA0621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D67120C150B94E500AA0621 /* main.m */; };
+		1D671210150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D67120F150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.m */; };
+		1D671213150B94E500AA0621 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D671211150B94E500AA0621 /* MainWindow.xib */; };
+		1D671216150B94E500AA0621 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D671215150B94E500AA0621 /* RootViewController.m */; };
+		1D671219150B94E500AA0621 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D671217150B94E500AA0621 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040A62F11559A598009C64F9 /* SetAlarmSnoozeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmSnoozeViewController.h; sourceTree = "<group>"; };
+		040A62F21559A598009C64F9 /* SetAlarmSnoozeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmSnoozeViewController.m; sourceTree = "<group>"; };
+		040A62F31559A598009C64F9 /* SetAlarmSnoozeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAlarmSnoozeViewController.xib; sourceTree = "<group>"; };
+		040B5A661555BBEA0006E5C0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		040B5A671555BBEA0006E5C0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		04142BCD154FDA6900EA52DA /* SetAlarmMelodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmMelodyViewController.h; sourceTree = "<group>"; };
+		04142BCE154FDA6900EA52DA /* SetAlarmMelodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmMelodyViewController.m; sourceTree = "<group>"; };
+		04142BCF154FDA6900EA52DA /* SetAlarmMelodyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAlarmMelodyViewController.xib; sourceTree = "<group>"; };
+		045C6BE1156117DA00139F97 /* setting_buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = setting_buttons; sourceTree = "<group>"; };
+		045E6B74152A530100B2B014 /* ThemeColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeColorViewController.h; sourceTree = "<group>"; };
+		045E6B75152A530100B2B014 /* ThemeColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeColorViewController.m; sourceTree = "<group>"; };
+		045E6B76152A530100B2B014 /* ThemeColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeColorViewController.xib; sourceTree = "<group>"; };
+		04769406152E3E80007D5BAC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		04769407152E3E80007D5BAC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04769408152E3E80007D5BAC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		04769409152E3E80007D5BAC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		0476940A152E3E81007D5BAC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		0476940B152E3E81007D5BAC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		0476940C152E3E81007D5BAC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		0476940D152E3E81007D5BAC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		0476940E152E3E81007D5BAC /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		0478738E15250CBD003DD095 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0478738F15250CBD003DD095 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0478739015250CBD003DD095 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		04793A3F155005CC00FA85AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04793A421550158B00FA85AA /* SetAlarmRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmRepeatViewController.h; sourceTree = "<group>"; };
+		04793A431550158B00FA85AA /* SetAlarmRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmRepeatViewController.m; sourceTree = "<group>"; };
+		04793A441550158B00FA85AA /* SetAlarmRepeatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAlarmRepeatViewController.xib; sourceTree = "<group>"; };
+		04798AD4152CC5DD002310C5 /* InterruptedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterruptedLineView.h; sourceTree = "<group>"; };
+		04798AD5152CC5DD002310C5 /* InterruptedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterruptedLineView.m; sourceTree = "<group>"; };
+		04798AD7152CCE5B002310C5 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		047A16B01521083A00F418A8 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		047A16B11521083A00F418A8 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		047A16B21521083A00F418A8 /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
+		047A16B31521083A00F418A8 /* DS-DIGIT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIT.TTF"; sourceTree = "<group>"; };
+		047A16C11521271C00F418A8 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		047A16C21521271C00F418A8 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		04B69CA5154E8B5C0081DB79 /* SetAlarmNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmNameViewController.h; sourceTree = "<group>"; };
+		04B69CA6154E8B5C0081DB79 /* SetAlarmNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmNameViewController.m; sourceTree = "<group>"; };
+		04B69CA7154E8B5C0081DB79 /* SetAlarmNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAlarmNameViewController.xib; sourceTree = "<group>"; };
+		04D2DCE015626C4A003009FA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		04D94970154E5FE6008BC8D4 /* SetAlarmTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetAlarmTimeViewController.h; sourceTree = "<group>"; };
+		04D94971154E5FE6008BC8D4 /* SetAlarmTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetAlarmTimeViewController.m; sourceTree = "<group>"; };
+		04D94972154E5FE6008BC8D4 /* SetAlarmTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAlarmTimeViewController.xib; sourceTree = "<group>"; };
+		04E9C3E7155C52E500B34FB2 /* Ascending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ascending.mp3; sourceTree = "<group>"; };
+		04E9C3E8155C52E500B34FB2 /* Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bells.mp3; sourceTree = "<group>"; };
+		04E9C3E9155C52E500B34FB2 /* Best DJ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best DJ.mp3"; sourceTree = "<group>"; };
+		04E9C3EA155C52E500B34FB2 /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Birds.mp3; sourceTree = "<group>"; };
+		04E9C3EB155C52E500B34FB2 /* Cool Reggae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cool Reggae.mp3"; sourceTree = "<group>"; };
+		04E9C3EC155C52E500B34FB2 /* Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dance.mp3; sourceTree = "<group>"; };
+		04E9C3ED155C52E500B34FB2 /* Disco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Disco.mp3; sourceTree = "<group>"; };
+		04E9C3EE155C52E500B34FB2 /* Electronica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Electronica.mp3; sourceTree = "<group>"; };
+		04E9C3EF155C52E500B34FB2 /* Fast Digital.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fast Digital.mp3"; sourceTree = "<group>"; };
+		04E9C3F0155C52E500B34FB2 /* Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guitar.mp3; sourceTree = "<group>"; };
+		04E9C3F1155C52E500B34FB2 /* House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = House.mp3; sourceTree = "<group>"; };
+		04E9C3F2155C52E500B34FB2 /* Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Love.mp3; sourceTree = "<group>"; };
+		04E9C3F3155C52E500B34FB2 /* Manele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Manele.mp3; sourceTree = "<group>"; };
+		04E9C3F4155C52E500B34FB2 /* Nostalgic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nostalgic.mp3; sourceTree = "<group>"; };
+		04E9C3F5155C52E500B34FB2 /* Oriental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oriental.mp3; sourceTree = "<group>"; };
+		04E9C3F6155C52E500B34FB2 /* Romantic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Romantic.mp3; sourceTree = "<group>"; };
+		04E9C3F7155C52E500B34FB2 /* Royal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Royal.mp3; sourceTree = "<group>"; };
+		04E9C3F8155C52E500B34FB2 /* Spanish Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spanish Guitar.mp3"; sourceTree = "<group>"; };
+		04E9C3F9155C52E500B34FB2 /* Sufiana Flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sufiana Flute.mp3"; sourceTree = "<group>"; };
+		04E9C3FA155C52E500B34FB2 /* Twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Twinkle.mp3; sourceTree = "<group>"; };
+		04FAEC97154D7E8E0096496E /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		04FAEC98154D7E8E0096496E /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		04FAEC9C154D85420096496E /* CustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeader.h; sourceTree = "<group>"; };
+		04FAEC9D154D85420096496E /* CustomHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeader.m; sourceTree = "<group>"; };
+		04FAEC9F154D8E430096496E /* AddAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmViewController.h; sourceTree = "<group>"; };
+		04FAECA0154D8E430096496E /* AddAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmViewController.m; sourceTree = "<group>"; };
+		04FAECA1154D8E430096496E /* AddAlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAlarmViewController.xib; sourceTree = "<group>"; };
+		04FF34BA154D76B50048A0A8 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		04FF34BB154D76B50048A0A8 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		1D6711FB150B94E400AA0621 /* iAlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6711FF150B94E400AA0621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D671201150B94E400AA0621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D671203150B94E400AA0621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D671207150B94E500AA0621 /* iAlarmClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iAlarmClock-Info.plist"; sourceTree = "<group>"; };
+		1D671209150B94E500AA0621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D67120B150B94E500AA0621 /* iAlarmClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iAlarmClock-Prefix.pch"; sourceTree = "<group>"; };
+		1D67120C150B94E500AA0621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D67120E150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBasedTemplateAppDelegate.h; sourceTree = "<group>"; };
+		1D67120F150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBasedTemplateAppDelegate.m; sourceTree = "<group>"; };
+		1D671212150B94E500AA0621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1D671214150B94E500AA0621 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1D671215150B94E500AA0621 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1D671218150B94E500AA0621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6711F8150B94E400AA0621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04793A40155005CC00FA85AA /* AVFoundation.framework in Frameworks */,
+				1D671200150B94E400AA0621 /* UIKit.framework in Frameworks */,
+				1D671202150B94E400AA0621 /* Foundation.framework in Frameworks */,
+				1D671204150B94E400AA0621 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040A62EF1559A57E009C64F9 /* SetAlarmSnoozeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040A62F11559A598009C64F9 /* SetAlarmSnoozeViewController.h */,
+				040A62F21559A598009C64F9 /* SetAlarmSnoozeViewController.m */,
+				040A62F31559A598009C64F9 /* SetAlarmSnoozeViewController.xib */,
+			);
+			name = SetAlarmSnoozeViewController;
+			sourceTree = "<group>";
+		};
+		04142BCA154FDA3A00EA52DA /* SetAlarmNameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B69CA5154E8B5C0081DB79 /* SetAlarmNameViewController.h */,
+				04B69CA6154E8B5C0081DB79 /* SetAlarmNameViewController.m */,
+				04B69CA7154E8B5C0081DB79 /* SetAlarmNameViewController.xib */,
+			);
+			name = SetAlarmNameViewController;
+			sourceTree = "<group>";
+		};
+		04142BCC154FDA4B00EA52DA /* SetAlarmMelodyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04142BCD154FDA6900EA52DA /* SetAlarmMelodyViewController.h */,
+				04142BCE154FDA6900EA52DA /* SetAlarmMelodyViewController.m */,
+				04142BCF154FDA6900EA52DA /* SetAlarmMelodyViewController.xib */,
+			);
+			name = SetAlarmMelodyViewController;
+			sourceTree = "<group>";
+		};
+		042676B3152A200800199693 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04D2DCE015626C4A003009FA /* background.png */,
+				04798AD7152CCE5B002310C5 /* bell.png */,
+				04769405152E3E70007D5BAC /* Themes */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		04769405152E3E70007D5BAC /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				04769406152E3E80007D5BAC /* 5.png */,
+				04769407152E3E80007D5BAC /* 1.png */,
+				04769408152E3E80007D5BAC /* 2.png */,
+				04769409152E3E80007D5BAC /* 3.png */,
+				0476940A152E3E81007D5BAC /* 4.png */,
+				0476940B152E3E81007D5BAC /* 6.png */,
+				0476940C152E3E81007D5BAC /* 7.png */,
+				0476940D152E3E81007D5BAC /* 8.png */,
+				0476940E152E3E81007D5BAC /* 9.png */,
+			);
+			name = Themes;
+			sourceTree = "<group>";
+		};
+		0478738D15250C63003DD095 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04793A411550157300FA85AA /* SetAlarmRepeatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04793A421550158B00FA85AA /* SetAlarmRepeatViewController.h */,
+				04793A431550158B00FA85AA /* SetAlarmRepeatViewController.m */,
+				04793A441550158B00FA85AA /* SetAlarmRepeatViewController.xib */,
+			);
+			name = SetAlarmRepeatViewController;
+			sourceTree = "<group>";
+		};
+		047A16AE152107FB00F418A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				047A16B01521083A00F418A8 /* DS-DIGI.TTF */,
+				047A16B11521083A00F418A8 /* DS-DIGIB.TTF */,
+				047A16B21521083A00F418A8 /* DS-DIGII.TTF */,
+				047A16B31521083A00F418A8 /* DS-DIGIT.TTF */,
+			);
+			name = Fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		047A16C0152126EB00F418A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				047A16C11521271C00F418A8 /* Utilities.h */,
+				047A16C21521271C00F418A8 /* Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		04B98939155566150057F890 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0478738E15250CBD003DD095 /* SettingsViewController.h */,
+				0478738F15250CBD003DD095 /* SettingsViewController.m */,
+				0478739015250CBD003DD095 /* SettingsViewController.xib */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		04D94976154E61AA008BC8D4 /* SetAlarmTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04D94970154E5FE6008BC8D4 /* SetAlarmTimeViewController.h */,
+				04D94971154E5FE6008BC8D4 /* SetAlarmTimeViewController.m */,
+				04D94972154E5FE6008BC8D4 /* SetAlarmTimeViewController.xib */,
+			);
+			name = SetAlarmTimeViewController;
+			sourceTree = "<group>";
+		};
+		04E9C3E6155C52E500B34FB2 /* Melodies */ = {
+			isa = PBXGroup;
+			children = (
+				04E9C3E7155C52E500B34FB2 /* Ascending.mp3 */,
+				04E9C3E8155C52E500B34FB2 /* Bells.mp3 */,
+				04E9C3E9155C52E500B34FB2 /* Best DJ.mp3 */,
+				04E9C3EA155C52E500B34FB2 /* Birds.mp3 */,
+				04E9C3EB155C52E500B34FB2 /* Cool Reggae.mp3 */,
+				04E9C3EC155C52E500B34FB2 /* Dance.mp3 */,
+				04E9C3ED155C52E500B34FB2 /* Disco.mp3 */,
+				04E9C3EE155C52E500B34FB2 /* Electronica.mp3 */,
+				04E9C3EF155C52E500B34FB2 /* Fast Digital.mp3 */,
+				04E9C3F0155C52E500B34FB2 /* Guitar.mp3 */,
+				04E9C3F1155C52E500B34FB2 /* House.mp3 */,
+				04E9C3F2155C52E500B34FB2 /* Love.mp3 */,
+				04E9C3F3155C52E500B34FB2 /* Manele.mp3 */,
+				04E9C3F4155C52E500B34FB2 /* Nostalgic.mp3 */,
+				04E9C3F5155C52E500B34FB2 /* Oriental.mp3 */,
+				04E9C3F6155C52E500B34FB2 /* Romantic.mp3 */,
+				04E9C3F7155C52E500B34FB2 /* Royal.mp3 */,
+				04E9C3F8155C52E500B34FB2 /* Spanish Guitar.mp3 */,
+				04E9C3F9155C52E500B34FB2 /* Sufiana Flute.mp3 */,
+				04E9C3FA155C52E500B34FB2 /* Twinkle.mp3 */,
+			);
+			path = Melodies;
+			sourceTree = "<group>";
+		};
+		04FAEC9B154D80E10096496E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				04FAEC97154D7E8E0096496E /* Common.h */,
+				04FAEC98154D7E8E0096496E /* Common.m */,
+				04FF34BA154D76B50048A0A8 /* CustomCellBackground.h */,
+				04FF34BB154D76B50048A0A8 /* CustomCellBackground.m */,
+				04FAEC9C154D85420096496E /* CustomHeader.h */,
+				04FAEC9D154D85420096496E /* CustomHeader.m */,
+				04798AD4152CC5DD002310C5 /* InterruptedLineView.h */,
+				04798AD5152CC5DD002310C5 /* InterruptedLineView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		04FAECA4154D8E7D0096496E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				040A62EF1559A57E009C64F9 /* SetAlarmSnoozeViewController */,
+				04B98939155566150057F890 /* SettingsViewController */,
+				04793A411550157300FA85AA /* SetAlarmRepeatViewController */,
+				04142BCC154FDA4B00EA52DA /* SetAlarmMelodyViewController */,
+				04142BCA154FDA3A00EA52DA /* SetAlarmNameViewController */,
+				04D94976154E61AA008BC8D4 /* SetAlarmTimeViewController */,
+				04FAECA6154D8E9D0096496E /* AddAlarmViewController */,
+				04FAECA5154D8E8D0096496E /* ThemeColorViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04FAECA5154D8E8D0096496E /* ThemeColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				045E6B74152A530100B2B014 /* ThemeColorViewController.h */,
+				045E6B75152A530100B2B014 /* ThemeColorViewController.m */,
+				045E6B76152A530100B2B014 /* ThemeColorViewController.xib */,
+			);
+			name = ThemeColorViewController;
+			sourceTree = "<group>";
+		};
+		04FAECA6154D8E9D0096496E /* AddAlarmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04FAEC9F154D8E430096496E /* AddAlarmViewController.h */,
+				04FAECA0154D8E430096496E /* AddAlarmViewController.m */,
+				04FAECA1154D8E430096496E /* AddAlarmViewController.xib */,
+			);
+			name = AddAlarmViewController;
+			sourceTree = "<group>";
+		};
+		1D6711F0150B94E400AA0621 = {
+			isa = PBXGroup;
+			children = (
+				040B5A661555BBEA0006E5C0 /* Icon.png */,
+				040B5A671555BBEA0006E5C0 /* Icon@2x.png */,
+				04FAECA4154D8E7D0096496E /* ViewControllers */,
+				04FAEC9B154D80E10096496E /* Custom Views */,
+				0478738D15250C63003DD095 /* Controllers */,
+				047A16C0152126EB00F418A8 /* Utilities */,
+				1D671205150B94E500AA0621 /* NavigationBasedTemplate */,
+				1D6711FE150B94E400AA0621 /* Frameworks */,
+				1D6711FC150B94E400AA0621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6711FC150B94E400AA0621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6711FB150B94E400AA0621 /* iAlarmClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6711FE150B94E400AA0621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04793A3F155005CC00FA85AA /* AVFoundation.framework */,
+				1D6711FF150B94E400AA0621 /* UIKit.framework */,
+				1D671201150B94E400AA0621 /* Foundation.framework */,
+				1D671203150B94E400AA0621 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D671205150B94E500AA0621 /* NavigationBasedTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1D67120E150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.h */,
+				1D67120F150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.m */,
+				1D671211150B94E500AA0621 /* MainWindow.xib */,
+				1D671214150B94E500AA0621 /* RootViewController.h */,
+				1D671215150B94E500AA0621 /* RootViewController.m */,
+				1D671217150B94E500AA0621 /* RootViewController.xib */,
+				1D671206150B94E500AA0621 /* Supporting Files */,
+			);
+			path = NavigationBasedTemplate;
+			sourceTree = "<group>";
+		};
+		1D671206150B94E500AA0621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045C6BE1156117DA00139F97 /* setting_buttons */,
+				04E9C3E6155C52E500B34FB2 /* Melodies */,
+				042676B3152A200800199693 /* images */,
+				047A16AE152107FB00F418A8 /* Fonts */,
+				1D671207150B94E500AA0621 /* iAlarmClock-Info.plist */,
+				1D671208150B94E500AA0621 /* InfoPlist.strings */,
+				1D67120B150B94E500AA0621 /* iAlarmClock-Prefix.pch */,
+				1D67120C150B94E500AA0621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6711FA150B94E400AA0621 /* iAlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D67121C150B94E500AA0621 /* Build configuration list for PBXNativeTarget "iAlarmClock" */;
+			buildPhases = (
+				1D6711F7150B94E400AA0621 /* Sources */,
+				1D6711F8150B94E400AA0621 /* Frameworks */,
+				1D6711F9150B94E400AA0621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAlarmClock;
+			productName = NavigationBasedTemplate;
+			productReference = 1D6711FB150B94E400AA0621 /* iAlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6711F2150B94E400AA0621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1D6711F5150B94E400AA0621 /* Build configuration list for PBXProject "iAlarmClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D6711F0150B94E400AA0621;
+			productRefGroup = 1D6711FC150B94E400AA0621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6711FA150B94E400AA0621 /* iAlarmClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6711F9150B94E400AA0621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D67120A150B94E500AA0621 /* InfoPlist.strings in Resources */,
+				1D671213150B94E500AA0621 /* MainWindow.xib in Resources */,
+				1D671219150B94E500AA0621 /* RootViewController.xib in Resources */,
+				047A16B41521083A00F418A8 /* DS-DIGI.TTF in Resources */,
+				047A16B51521083A00F418A8 /* DS-DIGIB.TTF in Resources */,
+				047A16B61521083A00F418A8 /* DS-DIGII.TTF in Resources */,
+				047A16B71521083A00F418A8 /* DS-DIGIT.TTF in Resources */,
+				0478739215250CBD003DD095 /* SettingsViewController.xib in Resources */,
+				045E6B78152A530200B2B014 /* ThemeColorViewController.xib in Resources */,
+				04798AD8152CCE5B002310C5 /* bell.png in Resources */,
+				0476940F152E3E81007D5BAC /* 5.png in Resources */,
+				04769410152E3E81007D5BAC /* 1.png in Resources */,
+				04769411152E3E81007D5BAC /* 2.png in Resources */,
+				04769412152E3E81007D5BAC /* 3.png in Resources */,
+				04769413152E3E81007D5BAC /* 4.png in Resources */,
+				04769414152E3E81007D5BAC /* 6.png in Resources */,
+				04769415152E3E81007D5BAC /* 7.png in Resources */,
+				04769416152E3E81007D5BAC /* 8.png in Resources */,
+				04769417152E3E81007D5BAC /* 9.png in Resources */,
+				04FAECA3154D8E430096496E /* AddAlarmViewController.xib in Resources */,
+				04D94974154E5FE6008BC8D4 /* SetAlarmTimeViewController.xib in Resources */,
+				04B69CA9154E8B5C0081DB79 /* SetAlarmNameViewController.xib in Resources */,
+				04142BD1154FDA6900EA52DA /* SetAlarmMelodyViewController.xib in Resources */,
+				04793A461550158B00FA85AA /* SetAlarmRepeatViewController.xib in Resources */,
+				040B5A681555BBEA0006E5C0 /* Icon.png in Resources */,
+				040B5A691555BBEA0006E5C0 /* Icon@2x.png in Resources */,
+				040A62F51559A598009C64F9 /* SetAlarmSnoozeViewController.xib in Resources */,
+				04E9C3FB155C52E500B34FB2 /* Ascending.mp3 in Resources */,
+				04E9C3FC155C52E500B34FB2 /* Bells.mp3 in Resources */,
+				04E9C3FD155C52E500B34FB2 /* Best DJ.mp3 in Resources */,
+				04E9C3FE155C52E500B34FB2 /* Birds.mp3 in Resources */,
+				04E9C3FF155C52E500B34FB2 /* Cool Reggae.mp3 in Resources */,
+				04E9C400155C52E500B34FB2 /* Dance.mp3 in Resources */,
+				04E9C401155C52E500B34FB2 /* Disco.mp3 in Resources */,
+				04E9C402155C52E500B34FB2 /* Electronica.mp3 in Resources */,
+				04E9C403155C52E500B34FB2 /* Fast Digital.mp3 in Resources */,
+				04E9C404155C52E500B34FB2 /* Guitar.mp3 in Resources */,
+				04E9C405155C52E500B34FB2 /* House.mp3 in Resources */,
+				04E9C406155C52E500B34FB2 /* Love.mp3 in Resources */,
+				04E9C407155C52E500B34FB2 /* Manele.mp3 in Resources */,
+				04E9C408155C52E500B34FB2 /* Nostalgic.mp3 in Resources */,
+				04E9C409155C52E500B34FB2 /* Oriental.mp3 in Resources */,
+				04E9C40A155C52E500B34FB2 /* Romantic.mp3 in Resources */,
+				04E9C40B155C52E500B34FB2 /* Royal.mp3 in Resources */,
+				04E9C40C155C52E500B34FB2 /* Spanish Guitar.mp3 in Resources */,
+				04E9C40D155C52E500B34FB2 /* Sufiana Flute.mp3 in Resources */,
+				04E9C40E155C52E500B34FB2 /* Twinkle.mp3 in Resources */,
+				045C6BE2156117DA00139F97 /* setting_buttons in Resources */,
+				04D2DCE115626C4A003009FA /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6711F7150B94E400AA0621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D67120D150B94E500AA0621 /* main.m in Sources */,
+				1D671210150B94E500AA0621 /* NavigationBasedTemplateAppDelegate.m in Sources */,
+				1D671216150B94E500AA0621 /* RootViewController.m in Sources */,
+				047A16C31521271C00F418A8 /* Utilities.m in Sources */,
+				0478739115250CBD003DD095 /* SettingsViewController.m in Sources */,
+				045E6B77152A530200B2B014 /* ThemeColorViewController.m in Sources */,
+				04798AD6152CC5DD002310C5 /* InterruptedLineView.m in Sources */,
+				04FF34BC154D76B50048A0A8 /* CustomCellBackground.m in Sources */,
+				04FAEC99154D7E8E0096496E /* Common.m in Sources */,
+				04FAEC9E154D85420096496E /* CustomHeader.m in Sources */,
+				04FAECA2154D8E430096496E /* AddAlarmViewController.m in Sources */,
+				04D94973154E5FE6008BC8D4 /* SetAlarmTimeViewController.m in Sources */,
+				04B69CA8154E8B5C0081DB79 /* SetAlarmNameViewController.m in Sources */,
+				04142BD0154FDA6900EA52DA /* SetAlarmMelodyViewController.m in Sources */,
+				04793A451550158B00FA85AA /* SetAlarmRepeatViewController.m in Sources */,
+				040A62F41559A598009C64F9 /* SetAlarmSnoozeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D671208150B94E500AA0621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D671209150B94E500AA0621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D671211150B94E500AA0621 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D671212150B94E500AA0621 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1D671217150B94E500AA0621 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D671218150B94E500AA0621 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D67121A150B94E500AA0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D67121B150B94E500AA0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1D67121D150B94E500AA0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBasedTemplate/iAlarmClock-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "NavigationBasedTemplate/iAlarmClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = iAlarmClock;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D67121E150B94E500AA0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBasedTemplate/iAlarmClock-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "NavigationBasedTemplate/iAlarmClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = iAlarmClock;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6711F5150B94E400AA0621 /* Build configuration list for PBXProject "iAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D67121A150B94E500AA0621 /* Debug */,
+				1D67121B150B94E500AA0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D67121C150B94E500AA0621 /* Build configuration list for PBXNativeTarget "iAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D67121D150B94E500AA0621 /* Debug */,
+				1D67121E150B94E500AA0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6711F2150B94E400AA0621 /* Project object */;
+}
